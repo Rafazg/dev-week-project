@@ -15,7 +15,7 @@
     <td>JavaScript</td>
   </tr>
   <tr>
-    <td>35%</td>
+    <td>56,2%</td>
     <td>60%</td>
     <td>5%</td>
   </tr>
