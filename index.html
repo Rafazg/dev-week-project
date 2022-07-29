@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Week</title>
+
+    <link rel="stylesheet" href="src/css/style.css">
+    <!-- Cards Styles -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="src/imagens/logo.png" alt="">
+        <h1>MapaDev Week</h1>
+    </header>
+    <main>
+
+        <button>
+            <img src="src/imagens/arrow-left.png" alt="seta voltar" id="arrow-prev" onclick="clicou">
+        </button>
+
+        <ul id="slides-container">
+            <li class="card-one" id="slide">
+                
+                <div class="info">
+                    <h2>Goku</h2>
+                    <p>HP 700</p>
+                </div>
+                <div class="img-box">
+                    <img src="src/imagens/goku.png" alt="character goku">
+                </div>
+                <div class="skills-area">
+                    <div class="title">
+                        <h2>Descrição</h2>
+                    </div>
+                    <div class="description">
+                        <p>Originalmente batizado como Kakarotto Goku é membro de uma raça fictícia de extraterrestres, os Saiyajins.
+                        </p>
+                    </div>
+                    <div class="skills">
+                        <b>Força:</b><div class="strenght">
+                            <div class="bar-stg">
+                                55%
+                            </div>
+                        </div>
+                        <b>Rapidez:</b><div class="speed">
+                            <div class="bar-speed">
+                                40%
+                            </div>
+                        </div>
+                        <b>Defesa:</b><div class="defense">
+                            <div class="bar-def">
+                                35%
+                            </div>
+                        </div>
+                        <b>Magia:</b><div class="ki">
+                            <div class="bar-ki">
+                                38%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="card-two" id="slide">
+
+                <div class="info">
+                    <h2>Vegeta</h2>
+                    <p>HP 640</p>
+                </div>
+                <div class="img-box">
+                    <img src="src/imagens/goku.png" alt="character goku">
+                </div>
+                <div class="skills-area">
+                    <div class="title">
+                        <h2>Descrição</h2>
+                    </div>
+                    <div class="description">
+                        <p>Originalmente batizado como Kakarotto Goku é membro de uma raça fictícia de extraterrestres, os Saiyajins.
+                        </p>
+                    </div>
+                    <div class="skills">
+                        Força:<div class="strenght">
+                            <div class="bar-stg">
+                                55%
+                            </div>
+                        </div>
+                        Rapidez:<div class="speed">
+                            <div class="bar-speed">
+                                40%
+                            </div>
+                        </div>
+                        Defesa:<div class="defense">
+                            <div class="bar-def">
+                                35%
+                            </div>
+                        </div>
+                        Magia:<div class="ki">
+                            <div class="bar-ki">
+                                38%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li id="slide"></li>
+            <li id="slide"></li>
+        </ul>
+
+        <button>
+            <img src="src/imagens/arrow-right.png" alt="" id="arrow-next">
+        </button>
+    </main>
+
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="src/JavaScript/carrousel.js"></script>
+</body>
+
+</html>

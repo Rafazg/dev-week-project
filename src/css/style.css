@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background: url('../imagens/body-background.jpg');
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100vh;
+}
+main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 15px;
+}
+header img{
+    width: 55px;
+    height: 55px;
+}
+main ul{
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    list-style: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+}
+main ul .card-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url('../imagens/goku-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 400px 600px;
+}
+main ul .card-one img{
+    width: 400px;
+    height: 600px;
+}
+main ul .card-one .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    margin-top: 10px;
+    width: 355px;
+    background-color: rgba(143, 143, 143, 0.397);
+    border-radius: 10px;
+}
+main ul .card-one .info h2{
+    color: white;
+}
+main ul .card-one .info p{
+    text-decoration: dotted;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 32, 32);
+    border-radius: 5px;
+    width: 70px;
+}
+main ul .img-box{
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+}
+main ul .img-box img{
+    width: 350px;
+    height: 350px;
+}
+
+main ul .card-one .skills-area{
+    width: 350px;
+    height: 180px;
+    border: 2px solid;
+    margin-top: 20px;
+    background-color: rgb(218, 219, 219);
+}
+main ul .card-one .title{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+main ul .card-one .skills{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr 10fr;
+    gap: 5px;
+    width: 345px;
+    height: 90px;
+    margin-top: 5px;
+}
+.skills .strenght, .speed, .defense, .ki{
+    background-color: white;
+    border-radius: 100px;
+    width: 100px;
+    height: 15px;
+
+}
+.strenght .bar-stg{
+    background-color: aquamarine;
+    border-radius: 100px;
+    width: 55%;
+    height: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+.speed .bar-speed{
+    background-color: aquamarine;
+    border-radius: 100px;
+    width: 40%;
+    height: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+.defense .bar-def{
+    background-color: aquamarine;
+    border-radius: 100px;
+    width: 35%;
+    height: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+.ki .bar-ki{
+    background-color: aquamarine;
+    border-radius: 100px;
+    width: 38%;
+    height: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 90px;
+    overflow: hidden;
+}
+button img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
