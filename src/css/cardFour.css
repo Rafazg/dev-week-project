@@ -1,18 +1,18 @@
-main ul .card-two{
+main ul .card-four{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100%;
-    background-image: url('../imagens/goku-background.jpg');
+    background-image: url('../imagens/freeza-background.png');
     background-repeat: no-repeat;
     background-size: 400px 600px;
 }
-main ul .card-two img{
+main ul .card-four img{
     width: 400px;
     height: 600px;
 }
-main ul .card-two .info{
+main ul .card-four .info{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,41 +22,41 @@ main ul .card-two .info{
     background-color: rgba(143, 143, 143, 0.397);
     border-radius: 10px;
 }
-main ul .card-two .info h2{
+main ul .card-four .info h2{
     color: white;
 }
-main ul .card-two .info p{
+main ul .card-four .info p{
     text-decoration: dotted;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 55, 156);
+    background-color: rgb(130, 11, 151);
     border-radius: 5px;
     width: 70px;
 }
-main ul .img-box-two{
+main ul .img-box-four{
     overflow: hidden;
-    width: 270px;
-    height: 270px;
+    width: 240px;
+    height: 260px;
 }
-main ul .img-box-two img{
-    width: 270px;
-    height: 270px;
+main ul .img-box-four img{
+    width: 240px;
+    height: 260px;
 }
 
-main ul .card-two .skills-area{
+main ul .card-four .skills-area{
     width: 350px;
     height: 180px;
     border: 2px solid;
     margin-top: 20px;
     background-color: rgb(218, 219, 219);
 }
-main ul .card-two .title{
+main ul .card-four .title{
     width: 100%;
     height: 30px;
     background-color: rgb(54, 54, 54);
     color: white;
 }
-main ul .card-two .skills{
+main ul .card-four .skills{
     display: grid;
     grid-template-columns: 1fr 10fr 1fr 10fr;
     gap: 5px;
@@ -71,34 +71,34 @@ main ul .card-two .skills{
     height: 15px;
 
 }
-.strenght .bar-stg-two{
+.strenght .bar-stg-four{
     background-color: aquamarine;
     border-radius: 100px;
-    width: 50%;
+    width: 60%;
     height: 15px;
     text-align: center;
     font-size: 15px;
 }
-.speed .bar-speed-two{
+.speed .bar-speed-four{
     background-color: aquamarine;
     border-radius: 100px;
-    width: 50%;
+    width: 45%;
     height: 15px;
     text-align: center;
     font-size: 15px;
 }
-.defense .bar-def-two{
+.defense .bar-def-four{
     background-color: aquamarine;
     border-radius: 100px;
-    width: 40%;
+    width: 45%;
     height: 15px;
     text-align: center;
     font-size: 15px;
 }
-.ki .bar-ki-two{
+.ki .bar-ki-four{
     background-color: aquamarine;
     border-radius: 100px;
-    width: 38%;
+    width: 80%;
     height: 15px;
     text-align: center;
     font-size: 15px;

@@ -8,3 +8,7 @@ nextButton.addEventListener("click", (event) =>{
     const slideWidth = slide.clientWidth
     slidesContainer.scrollLeft += slideWidth;
 }); 
+prevButton.addEventListener("click", (event) =>{
+    const slideWidth = slide.clientWidth
+    slidesContainer.scrollLeft -= slideWidth;
+}); 

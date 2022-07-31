@@ -1,44 +1,4 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0%;
-}
-body{
-    background: url('../imagens/body-background.jpg');
-    backdrop-filter: blur(5px);
-    width: 100%;
-    height: 100vh;
-}
-main{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    margin-top: 50px;
-    overflow: hidden;
-}
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-    gap: 15px;
-}
-header img{
-    width: 55px;
-    height: 55px;
-}
-main ul{
-    display: flex;
-    overflow: hidden;
-    scroll-behavior: smooth;
-    list-style: none;
-    border-radius: 10px;
-    width: 352px;
-    height: 500px;
-}
-main ul .card-one{
+main ul .card-three{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,61 +8,61 @@ main ul .card-one{
     background-repeat: no-repeat;
     background-size: 400px 600px;
 }
-main ul .card-one img{
+main ul .card-three img{
     width: 400px;
     height: 600px;
 }
-main ul .card-one .info{
+main ul .card-three .info{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
     margin-top: 10px;
-    width: 21rem;
+    width: 355px;
     background-color: rgba(143, 143, 143, 0.397);
     border-radius: 10px;
 }
-main ul .card-one .info h2{
+main ul .card-three .info h2{
     color: white;
 }
-main ul .card-one .info p{
+main ul .card-three .info p{
     text-decoration: dotted;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: rgb(214, 57, 5);
+    background-color: rgb(32, 32, 32);
     border-radius: 5px;
-    width: 4rem;
+    width: 70px;
 }
-main ul .img-box{
+main ul .img-box-three{
     overflow: hidden;
-    width: 15rem;
-    height: 16rem;
+    width: 250px;
+    height: 250px;
 }
-main ul .img-box img{
-    width: 15rem;
-    height: 16rem;
+main ul .img-box-three img{
+    width: 250px;
+    height: 250px;
 }
 
-main ul .card-one .skills-area{
-    width: 22rem;
-    height: 11rem;
+main ul .card-three .skills-area{
+    width: 350px;
+    height: 180px;
     border: 2px solid;
     margin-top: 20px;
     background-color: rgb(218, 219, 219);
 }
-main ul .card-one .title{
+main ul .card-three .title{
     width: 100%;
     height: 30px;
     background-color: rgb(54, 54, 54);
     color: white;
 }
-main ul .card-one .skills{
+main ul .card-three .skills{
     display: grid;
     grid-template-columns: 1fr 10fr 1fr 10fr;
     gap: 5px;
     width: 345px;
     height: 90px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .skills .strenght, .speed, .defense, .ki{
     background-color: white;
@@ -111,7 +71,7 @@ main ul .card-one .skills{
     height: 15px;
 
 }
-.strenght .bar-stg{
+.strenght .bar-stg-three{
     background-color: aquamarine;
     border-radius: 100px;
     width: 55%;
@@ -119,15 +79,15 @@ main ul .card-one .skills{
     text-align: center;
     font-size: 15px;
 }
-.speed .bar-speed{
+.speed .bar-speed-three{
     background-color: aquamarine;
     border-radius: 100px;
-    width: 40%;
+    width: 70%;
     height: 15px;
     text-align: center;
     font-size: 15px;
 }
-.defense .bar-def{
+.defense .bar-def-three{
     background-color: aquamarine;
     border-radius: 100px;
     width: 35%;
@@ -135,46 +95,11 @@ main ul .card-one .skills{
     text-align: center;
     font-size: 15px;
 }
-.ki .bar-ki{
+.ki .bar-ki-three{
     background-color: aquamarine;
     border-radius: 100px;
-    width: 38%;
+    width: 40%;
     height: 15px;
     text-align: center;
     font-size: 15px;
 }
-
-
-button{
-    width: 60px;
-    height: 60px;
-    border-radius: 90px;
-    overflow: hidden;
-}
-button img{
-    width: 30px;
-    height: 30px;
-
-}
-button:hover{
-    background-color: #969191;
-}
-button img:hover{
-    background-color: #969191;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
